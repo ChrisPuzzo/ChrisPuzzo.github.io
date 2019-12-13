@@ -1,0 +1,46 @@
+body{
+	background-image: url(imgs/space.jpg);
+}
+
+.header{
+	text-align: center;
+	padding: 10px;
+	background-color:rgb(205,31,68);
+}
+.button{
+	background-color: white;
+}
+.cards{
+	display: flex;
+	flex-direction: row;
+	text-align:center;
+}
+
+.card{
+	border-radius: 25px;
+	background-color: rgb(205,31,68);
+	padding: 20px;
+}
+.active{
+	background-color: white;
+	color: black;
+}
+.img1{
+	height: 720px;
+}
+.tv{
+	text-decoration: underline;
+}
+.date{
+	background-color: white;
+	color:black;
+}
+.footer{
+	justify-content: center;
+	background-color: black;
+	padding: 10px
+}
+.thing{
+	display: flex;
+	flex-direction: column;
+}

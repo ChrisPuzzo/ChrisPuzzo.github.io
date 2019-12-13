@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<title>Day of Sagittarius iii</title>
+<link rel="shortcut icon" href="imgs/head.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="w3-hide-small">
+    <div class="nav w3-bar w3-black">
+    	<a class= "w3-bar-item w3-button active w3-hover-red" href="index.html">Home</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="booking.html">Updates</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="GamePlay.html">Gameplay</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="charcters.html">Characters</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="FAQ.html">FAQ</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="Contact.html">About/Contact</a>
+    </div>
+<div class="header">
+    <img src="imgs/day.png" alt="Day of Sagittarius iii">
+</div>
+<div class= "w3-content w3-display-container">
+    <img class = "slides img1" src="imgs/ship1.jpg" alt="Gameplay" style="width: 100%">
+    <img class = "slides img1" src="imgs/ship2.png" alt="ships" style="width: 100%">
+    <img class = "slides img1" src="imgs/ship3.png" alt="screenshot" style="width: 100%">
+    <button class="button w3-button w3-display-left w3-white w3-hover-red" onclick="plusDivs(-1)">&#10094;</button>
+	<button class="button w3-button w3-display-right w3-white w3-hover-red" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+<script>
+	var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<script>
+	var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+</div>
+<div class="w3-hide-large w3-hide-medium">
+<div class="w3-dropdown-hover w3-black">
+  <button class="w3-black w3-button"><i class="fa fa-bars w3-xxlarge"></i></button>
+    <div class="nav w3-dropdown-content w3-bar-block w3-black">
+      <a class= "w3-bar-item w3-button w3-hover-red" href="index.html">Home</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="booking.html">Updates</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="GamePlay.html">Gameplay</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="charcters.html">Characters</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="FAQ.html">FAQ</a>
+        <a class ="w3-bar-item w3-button w3-hover-red" href="Contact.html">About/Contact</a>
+    </div>
+</div>
+<div class="header">
+    <img src="imgs/day.png" alt="Day of Sagittarius iii" style="width: 100%">
+</div>
+<div class="w3-text-white w3-center">
+<h1>Welcome to The Day Of Sagittarius!</h1>
+</div>
+<img src="imgs/ship1.jpg" alt="Ship" style="width: 100%">
+</div>
+<div class="w3-hide-small">
+<div class="cards">
+	<div class="card w3-half">
+		<div class="c1">
+			<h1><strong>Gameplay</strong></h1>
+			<p>	Note: This Game is based off of a game from an episode of the TV show <span class ="tv"><a href="https://myanimelist.net/anime/849/Suzumiya_Haruhi_no_Yuuutsu">The Melencholy of Haruhi Sizumiya</a></span></p>
+
+			<p>The Day of Sagittarius is a strategic war game that takes place in space. Each player has a fleet of 15000 ships that they generally control as one unit. The aim of the game is to defeat all of your opponents ships, or to defeat the opposing leader's fleet. A distinctive feature of the game is that to find your opponents, you must deploy scout ships. If you don't do this, you wont be able to see you opponents on screen, and thus wont be able to attack them. A secret command you can use is the ability to divide your fleet of 15000 into up to twenty separate squadrons, allowing more flexibility. A downside to this, is that its only humanly possible to control one squadron at a time. <a href="#"> More</a>
+			</p>
+			<img class="width" src="imgs/spacefight.jpg" alt="spacefight" style="width: 27%">
+		</div>
+
+	</div>
+	<div class="card w3-half">
+		<div class="c2">
+			<h1><strong>Story</strong></h1>
+			<p>You play as a small fleet that is stranded in the middle of no where after a large scale battle broke out while you where escorting the princess of your world to diplomatic talks. You must make your way back to the planet and escort the princess to where she was heading. You must survive unknown space, aliens, space creatures and enemy factions in order to make your way back to society safely. <a href="booking.html">Updates</a>
+			</p>
+			<img src="imgs/ship4.jpg" alt="Story" style="width: 50%">
+		</div>	
+	</div>
+</div>
+<div class="w3-bar footer w3-xlarge">
+	<a class="w3-bar-item w3-hover-red" href="#"><i class="fa fa-facebook"></i></a>
+	<a class="w3-bar-item w3-hover-red" href="#"><i class="fa fa-twitter"></i></a>
+	<a class="w3-bar-item w3-hover-red" href="#"><i class="fa fa-steam"></i></a>
+</div>
+</div>
+<div class="w3-hide-large w3-hide-medium">
+  <div class="thing">
+  <div class="card w3-half">
+    <div class="c1">
+      <h1><strong>Gameplay</strong></h1>
+      <p> Note: This Game is based off of a game from an episode of the TV show <span class ="tv"><a href="https://myanimelist.net/anime/849/Suzumiya_Haruhi_no_Yuuutsu">The Melencholy of Haruhi Sizumiya</a></span></p>
+
+      <p>The Day of Sagittarius is a strategic war game that takes place in space. Each player has a fleet of 15000 ships that they generally control as one unit. The aim of the game is to defeat all of your opponents ships, or to defeat the opposing leader's fleet. A distinctive feature of the game is that to find your opponents, you must deploy scout ships. If you don't do this, you wont be able to see you opponents on screen, and thus wont be able to attack them. A secret command you can use is the ability to divide your fleet of 15000 into up to twenty separate squadrons, allowing more flexibility. A downside to this, is that its only humanly possible to control one squadron at a time. <a href="#"> More</a>
+      </p>
+    </div>
+
+  </div>
+  <div class="card w3-half">
+    <div class="c2">
+      <h1><strong>Story</strong></h1>
+      <p>You play as a small fleet that is stranded in the middle of no where after a large scale battle broke out while you where escorting the princess of your world to diplomatic talks. You must make your way back to the planet and escort the princess to where she was heading. You must survive unknown space, aliens, space creatures and enemy factions in order to make your way back to society safely. <a href="booking.html">Updates</a>
+      </p>
+    </div>  
+  </div>
+</div>
+</div>
+</body>
+</html>

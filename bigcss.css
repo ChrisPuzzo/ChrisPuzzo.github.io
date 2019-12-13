@@ -1,0 +1,55 @@
+.nav{
+	padding: 5px;
+	text-decoration: none;
+}
+
+.element{
+	background-color: #441fcd;
+	border: solid white 4px;
+	border-radius: 15px;
+	color: white;
+}
+.elementtwo{
+	color: black;
+	background-color: rgb(205,31,68);
+	border: solid black 4px;
+	border-radius: 15px;
+
+}
+
+.x{
+	color: white;
+	font-size: 48pt;
+}
+
+.contact{
+	color: white;
+	font-size: 24pt;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+}
+
+.card{
+	background-color: rgb(205,31,68);
+	color: black;
+	border: solid black 4px;
+	border-radius: 15px;
+}
+.card2{
+	background-color: #441fcd;
+	color: white;
+	border: solid white 4px;
+	border-radius: 15px;
+}
+
+.head{
+	font-size: 3em;
+	color: white;
+	text-align: center;
+}
+.box2{
+	display: flex;
+	flex-direction: row;
+}
